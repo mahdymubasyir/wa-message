@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import pkg from "whatsapp-web.js";
+import qrcode from "qrcode-terminal";
 
 const app = express();
 
