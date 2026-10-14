@@ -21,7 +21,7 @@ export const client = new Client({
     clientId: "main",
   }),
   puppeteer: {
-    headless: false,
+    headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   },
 });
